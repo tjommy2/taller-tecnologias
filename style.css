@@ -1,0 +1,27 @@
+.circle {
+  background-color:#3de0cb;
+  border-radius: 50%;
+  width:300px;
+  height:300px;
+  top: 30px;
+  left: 400px;
+  animation-name: cambio-color;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cambio-color{
+  from{
+    background-color:#da39e3; 
+    position: relative; 
+    top: 200px;
+  }
+  
+  to{
+    background-color:#2e2427;
+    position: relative;
+    top: 10; 
+    left:400px; 
+  }
+  
+}
